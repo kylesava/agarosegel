@@ -1,1 +1,7 @@
-# agarosegel
+This is a simple program I made over 2 years ago for a friend doing their Masters in neuroscience. They told me that they were expected to read a very large amount of agarose gel samples from images, and extract the data as part of one of their courses. This process could obviously be automated, at least partially in this case, so I decided to help and create this program. The graphics for this program were done in Python with Pygame, and an example image of the program in use for a given input is below:
+
+![image](https://user-images.githubusercontent.com/77376150/203404481-bc4e23b1-f71a-4375-80cb-7314a212ea0c.png)
+
+This program works by having the user first select the 'well' at the top of the screen, and then my program will adjust within 10 pixels to find the optimal spot in the area that the user likely intended to click. Then, the user will click for the x coordinate, being in the middle of whichever well they need to do readings of. Then, the user can click as many times as they think there are significant readings on the given line, and my program will again adjust for within 10 pixels on each click for the best possible placement. Once a line is done, the user can click space to set the next well and begin. This can continue until the user closes the window or clicks Q. Once done, the program prints out both the location of all clicks, and the estimated cell counts for each reading in order. The logarithmic distance scale is accounted for by my program, and it simply returns an accurate reading of estimated cell count.
+
+This program was extremely helpful in aiding this friend in this course, and though very niche, is a functional and useful tool for agarose gel readings.

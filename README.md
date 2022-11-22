@@ -1,3 +1,4 @@
+# Agarose Gel Reader
 This is a simple program I made over 2 years ago for a friend doing their Masters in neuroscience. They told me that they were expected to read a very large amount of agarose gel samples from images, and extract the data as part of one of their courses. This process could obviously be automated, at least partially in this case, so I decided to help and create this program. The graphics for this program were done in Python with Pygame, and an example image of the program in use for a given input is below:
 
 ![image](https://user-images.githubusercontent.com/77376150/203404481-bc4e23b1-f71a-4375-80cb-7314a212ea0c.png)
